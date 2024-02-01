@@ -1,4 +1,5 @@
-# Según lo que mi usuario este escuchando muestro en pantalla un mensaje gracioso
+# Según lo que mi usuario este escuchando muestro en la consola un mensaje gracioso
+
 def msg_activity(track_name, artist_name, playlist_id):
         if artist_name == "Taylor Swift":
             print(f"\nAlfonsina está reproduciendo '{track_name}' con la cuenta del bastardo :/")
@@ -8,5 +9,7 @@ def msg_activity(track_name, artist_name, playlist_id):
             print(f"\nValen está de chill escuchando '{track_name}' de Mac Miller -.-")
         elif playlist_id == '5vYatZ359LmD6DxhFoXgwr':
             print(f"\nValentín está en modo gaucho escuchando '{track_name}' de {artist_name} ¬.¬")
+        elif playlist_id == '6LI3cLlyTUhPWC2pvhXktD':
+             print(f"\nCuidado! el mood está re inide, está sonando '{track_name}' de {artist_name} (⌐■_■)")
         else:
             print(f"\nValen se está haciendo el lindo mientras escucha '{track_name}' de {artist_name}, re ¿?")
